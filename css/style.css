@@ -1,0 +1,236 @@
+/* con lo siguiente hacemos el reseteo de parametros*/
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.body {
+    margin: auto;
+    background-color: #E5E5E5;
+    width: 1024px;
+}
+
+.preHdr {
+    height: 20px;
+    width: 1024px;
+    background-color: black;
+    font-size: 10px;
+    color: white;
+}
+.preHdr1 {
+    text-align: left;
+    padding-left: 90px;
+    padding-top: 4px;
+}
+    
+.preHdr2 {
+    text-align: right;
+    padding-left: 700px;
+    padding-top: 4px;
+}
+
+header {
+    background-color:#F0A83E;
+    width: 1024px;
+    height: 62px;
+}
+
+.logo {
+    height: 23px;
+    width: 166.38px;
+    padding-left: 40px;
+    padding-top: 19.5px;
+}
+
+nav {
+    display: flex;
+    color: white;
+    height: 62px;
+    margin-left: 660px;
+    margin-top: 1px;
+    margin-bottom: 1px;
+    
+
+}
+
+nav li {
+    display: inline;
+    padding-right: 20px;
+    text-decoration:double;
+}
+
+a {
+    outline: none;
+    text-decoration: none;
+    font-size: 13px;
+}
+
+a:visited {
+    color: white;
+}
+
+.banner {
+    background-image: url(../img/Slide.png);
+    background-repeat: no-repeat;
+    background-size: 309px;
+    height: 409px;
+    width: 1024px;
+    background-size: cover;
+}
+
+.bann1 {
+    position: relative;
+    z-index: 10;
+    top: 172px;
+    left: 650px;
+    width: 345px;
+    height: 35;
+    text-align: center;
+    color:#3C2313;
+    font-size: 30px;
+    background-color: white;
+}
+
+.bann2 {
+    font-size: 16px;
+    color: #3C2313;
+    position: relative;
+    z-index: 10;
+    left: 390px;
+    top: 200px;
+    
+}
+
+.bann3 {
+    background-color: #F0A83E;
+    padding: 15px 25px;
+    color: white;
+    position: relative;
+    z-index: 10;
+    left: 225px;
+    top: 240px;
+}
+.main {
+    
+    width: 1024px;
+}
+
+.imgPat {
+    width: 67px;
+    height: 71px;
+    position: relative;
+    left: 470px;
+}
+
+.prodTitle {
+    position: relative;
+    top: 50px;
+    left: 250px;
+    color: #3C2313;
+    font-weight: 900px;
+    font-size: 40px;
+}
+
+.subProd {
+    position: relative;
+    z-index: 10;
+    left: 350px;
+    bottom: 450px;
+}
+
+.titleOpc {
+    position: relative;
+    z-index: 20;
+    top:500px;
+    left:50px;
+}
+
+.imgCenter {
+    position: relative;
+    /* z-index: 20; */
+    top: 80px;
+    padding-left: 15%;
+}
+
+.imgCenter1 {
+    position: relative;
+    z-index: 20;
+    left: 25px;
+    top: 80px;
+}
+.imgCenter2 {
+    position: relative;
+    z-index: 20;
+    left: 260px;
+    bottom: 165px;
+}
+.imgCenter3 {
+    position: relative;
+    z-index: 20;
+    left: 500px;
+    bottom: 410px;
+}
+
+footer {
+    height: 301px;
+    width: 1024px;
+    background-color: #3C2313;
+}
+
+.iconFoot {
+    position: relative;
+}
+
+.icon {
+    position: relative;
+    z-index: 10;
+    left: 70px;
+    top: 30px;
+    bottom: 5px;
+   /*  padding-top: 1px; */
+}
+
+.item {
+    position: relative;
+    z-index: 15px;
+    left: 80px;
+    bottom: 15px;
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+}
+
+.desc {
+    position: relative;
+    z-index: 20px;
+    /* text-align: left; */
+    /* left: 10px; */
+    bottom: 10px;
+}
+
+.desc p {
+    margin-left: 150px;
+    color: aliceblue;
+    font-size: 10px;
+}
+
+.logoFooter {
+    position: relative;
+    z-index: 10px;
+    left: 788px;
+    bottom: 120px;
+    caption-side: top;
+    vertical-align: auto;
+}
+
+.derechos {
+    margin-top: 20px ;
+    height: 20px;
+    background-color: #222222;
+    text-align: center;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+}
