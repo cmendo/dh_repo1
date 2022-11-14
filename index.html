@@ -7,8 +7,6 @@
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet"> 
     <title>Document</title>
 </head>
 <body>
@@ -35,30 +33,43 @@
             <span class="bann2">¡Comederos en descuento!</span>
             <span class="bann3">COMEDEROS</span>
         </section>
-        <!-- <section class="mai"> -->
-            <section class="prod">
-                <img class="imgPat" src="./img/patita1.png">
-                <span class="prodTitle">Productos Destacados</span>
+        <section class="prod">
+            <section><img class="imgPat" src="./img/patita1.png"></section>
+            <section><span class="prodTitle">Productos Destacados</span></section>
+            <section><span class="titleOpc">Comederos</span><span class="titleOpc"> - Acesorios - </span><span class="titleOpc">Comida</span></section>
+        </section>
+        <section class="imgCenter">
+            <section class="imgCenter1">
+                <span class="txtimgCenter">Juguete Churrasquito</span>
+                <span class="prcimgCenter">$150</span>
             </section>
-            <section class="subProd">
-                <span class="titleOpc">Comederos</span><span class="titleOpc"> - Acesorios - </span><span class="titleOpc">Comida</span>
+            <section class="imgCenter2">
+                <span class="txtimgCenter">Comedero para perro</span>
+                <span class="prcimgCenter">$250</span>
             </section>
-            <section class="imgCenter">
-                <section class="imgCenter1">
-                <img  src="./img/churrasquito.PNG"><br>
-                Juguete churrasquito<br>
-                150$<br>
-                </section>
-                <section class="imgCenter2">
-                <img src="./img/churrasquito.PNG"><br>
-                Juguete churrasquito<br>
-                150$<br>
-                </section>
-                <section class="imgCenter3">
-                <img src="./img/churrasquito.PNG"><br>
-                Juguete churrasquito<br>
-                150$
-                </section>
+            <section class="imgCenter3">
+                <span class="txtimgCenter">Juguete Huesito</span>
+                <span class="prcimgCenter">$650</span>
+            </section>
+        </section>
+        <form method="post" name="frm" enctype="multipart/form-data" action="#">
+            <label>Contáctanos</label>
+            <input type="text" placeholder="Nombre y Apellido">
+            <input type="text" placeholder="Ingresa tu correo electronico">
+            <input type="tel" placeholder="Telefono">
+            <section class="button">
+                <input id="btn1" type="button" value="Resetear">
+                <input id="btn2"  type="button" value="Enviar">
+            </section>
+        </form>
+        <section class="subscribete">
+            <section class="imgSobre"><img src="./img/sobre.png"></section>
+            <section><span class="txtSubs">Suscríbete para más novedades</span></section>
+            <!-- <section> -->
+            <form class="form2" method="post" name="frm2" enctype="multipart/form-data">
+                <input class="intSubs" type="text" placeholder="Ingresa tu correo electronico">
+                <input class="btn3" type="button" value="Subscribete">
+            </form>
             <!-- </section> -->
         </section>
     </main>
